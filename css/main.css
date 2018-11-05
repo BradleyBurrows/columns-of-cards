@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+div {
+  display: inline-block;
+  width: 25%;
+  float: left;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+section img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first{
+  background-color: #e2e2e2;
+  border-left: 1px solid #333;
+}
+
+.second {
+  background-color: #ccc;
+  border-left: 1px solid #333;
+}
+
+.third {
+  background-color: #aaa;
+  border-left: 1px solid #333;
+}
+
+.fourth {
+  background-color: #999;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
