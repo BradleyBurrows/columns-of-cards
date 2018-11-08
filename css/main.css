@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 sans-serif;
+  font: normal 100%/1.5 "Open Sans", sans-serif;
   line-height: 1.5;
   background-color: #f2f2f2;
 }
@@ -17,18 +17,46 @@ body {
 h1 {
   text-align: center;
   font-size: 2rem;
-  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }
 
-div {
-  display: inline-block;
+h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: .875em;
+  margin: 0;
+}
+
+p {
+  margin: .5em;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+.cards div {
   width: 25%;
-  float: left;
+  padding: .75rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
 }
 
 img {
   display: block;
   width: 100%;
+  padding-top: 0;
+  padding-left: 6.5em;
+  padding-right: 6.5em;
+  padding-bottom: 1.5em;
+  max-height: 170px;
 }
 
 section img {
@@ -36,7 +64,12 @@ section img {
   margin-right: auto;
 }
 
-.first{
+a {
+  display: flex;
+  padding-left: .3em;
+}
+
+.first {
   background-color: #e2e2e2;
   border-left: 1px solid #333;
 }
@@ -55,4 +88,26 @@ section img {
   background-color: #999;
   border-left: 1px solid #333;
   border-right: 1px solid #333;
+}
+
+.btn {
+  border-radius: 5px;
+  margin: .3em;
+  background-color: #333;
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: .875rem;
+}
+
+.btn-small {
+  padding-top: .6em;
+  padding-bottom: .6em;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.first p {
+  margin-bottom: 2em;
 }
